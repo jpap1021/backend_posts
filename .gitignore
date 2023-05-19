@@ -1,7 +1,32 @@
-.env
-instance/
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Local development environment
+venv/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Logs
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Compiled files
+*.pyc
+
+# Package files
+*.egg-info/
+dist/
+build/
+
+# System files
 .DS_Store
 Thumbs.db
-
-venv/
