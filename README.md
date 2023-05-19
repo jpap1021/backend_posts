@@ -16,6 +16,7 @@ This project has a local database running, at the moment this database has infor
 7.1. pip uninstall jwt
 7.2. pip install jwt
 8 flask run
+9. If you want to run the tes run the follogin command: pytest --cov
 
 #How works this application: 
 Note: you can use postman to test the endpoins.
