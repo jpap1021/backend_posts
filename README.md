@@ -30,7 +30,8 @@ username: user and password: password123, Content-type: x-www-form-urlencoded
 }
 4. /posts/{postId} (DELETE)
 5. /posts/{postID}/comments (GET)
-6. /posts/{postID}/comments (POST)
-
-
+6. /posts/{postID}/comments (POST) body : 
+7. {
+ "comment": "comment"
+ }
 Regards
